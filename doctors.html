@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Doctors | Avira Health</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+  .team-hero {
+    display: grid;
+    min-height: 420px;
+    place-items: center;
+    padding: 70px 8%;
+    text-align: center;
+    color: #ffffff;
+    background:
+      linear-gradient(rgba(16, 73, 56, 0.72), rgba(16, 73, 56, 0.72)),
+      url("images/hospital.jpg.jpg") center/cover;
+  }
+
+  .team-hero-content {
+    max-width: 760px;
+  }
+
+  .team-hero h1 {
+    margin-bottom: 14px;
+    color: #ffffff;
+    font-size: clamp(3rem, 6vw, 5rem);
+  }
+
+  .team-hero p {
+    color: #d9eee4;
+    font-size: 1.15rem;
+  }
+
+  .team-heading {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+
+  .highlighted-team {
+    background: #ffffff;
+  }
+
+  .team-photo-section {
+    padding-top: 0;
+    text-align: center;
+  }
+
+  .team-image-frame {
+    width: 100%;
+    max-width: 620px;
+    height: 360px;
+    margin: 0 auto 45px;
+    overflow: hidden;
+    border-radius: 14px;
+    box-shadow: 0 10px 28px rgba(16, 73, 56, 0.15);
+  }
+
+  .team-image-frame img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 75%;
+  }
+
+  .team-message {
+    max-width: 760px;
+    margin: 0 auto;
+  }
+
+  @media (max-width: 800px) {
+    .team-hero {
+      min-height: 330px;
+    }
+
+    .team-image-frame {
+      height: 260px;
+    }
+  }
+</style>
+</head>
+
+<body>
+
+  <header class="header">
+    <a href="index.html" class="logo">
+      <img src="images/avira-logo.png" alt="Avira Health logo">
+    </a>
+
+    <nav class="navigation">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="doctors.html" class="active">Doctors</a>
+      <a href="contacts.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="team-hero">
+      <div class="team-hero-content">
+        <h1>Our Medical Team</h1>
+        <p>Care You Can Trust.</p>
+      </div>
+    </section>
+
+    <section class="section highlighted-team">
+      <div class="section-heading team-heading">
+        <p class="eyebrow">Leading Specialists</p>
+        <h2>Exceptional care from experienced hands.</h2>
+        <p>
+          Meet three of Avira Health’s leading specialists, chosen for their
+          experience, skill, and commitment to patient-centred care.
+        </p>
+      </div>
+
+      <div class="doctor-grid">
+        <article class="doctor-card">
+          <img src="images/Dr-Abdi-osman.jpg.jpg" alt="Dr Abdi Osman">
+          <h3>Dr Abdi Osman</h3>
+          <p>Lead Hepatobiliary Surgeon</p>
+        </article>
+
+        <article class="doctor-card">
+          <img src="images/doctor-daniel.jpg.jpg" alt="Dr David Mwangi">
+          <h3>Dr David Mwangi</h3>
+          <p>Paediatric Specialist</p>
+        </article>
+
+        <article class="doctor-card">
+          <img src="images/doctor-amina.jpg.jpg" alt="Dr Amina Hassan">
+          <h3>Dr Amina Hassan</h3>
+          <p>Maternal Health Specialist</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section team-photo-section">
+
+  <div class="team-image-frame">
+    <img
+      src="images/hospital-team.jpg"
+      alt="The Avira Health medical team together">
+  </div>
+
+  <div class="team-message">
+    <p class="eyebrow">Always here for you</p>
+    <h2>One team, one purpose: your wellbeing.</h2>
+    <p>
+      Behind every appointment is a dedicated team of doctors, nurses,
+      laboratory professionals, pharmacists and support staff. At Avira
+      Health, we are here to listen, guide and care for you at every step.
+    </p>
+  </div>
+
+</section>
+
+  </main>
+
+  <footer class="footer">
+    <div>
+      <h3>Avira Health</h3>
+      <p>Inspired by Life, Driven by Care.</p>
+    </div>
+
+    <p>© 2026 Avira Health, Mombasa, Kenya.</p>
+  </footer>
+
+</body>
+</html>
